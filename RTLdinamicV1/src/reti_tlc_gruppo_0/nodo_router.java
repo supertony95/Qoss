@@ -96,7 +96,7 @@ public class nodo_router extends Nodo{
     
     
     private void inviaMessaggioACanale(Messaggi m) {
-        
+        System.out.println("progettooooooooooooooooooooooooooooooooooooooooo");
         int channel_id = 0;
         NetworkInterface i = null;
         for(Object interface_element : nics)
